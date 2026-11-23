@@ -18,3 +18,11 @@ Automate Infrastructure as Code (IaC) checks using GitHub Actions.
 
 ## Pipeline Status
 Terraform CI validation workflow executes automatically on every push and pull request to the main branch.
+
+## Infrastructure Changes with Branching Policy
+
+- Follow Git feature branching strategy.
+- Create infrastructure changes in a separate feature branch.
+- Commit and push changes to GitHub.
+- Submit changes through a Pull Request.
+- Review and merge approved changes into main.
